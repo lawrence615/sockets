@@ -1,0 +1,35 @@
+import socket
+import sys
+
+HOST = ''  # symbolic name meaning all available interfaces
+PORT = 8888  # Arbitrary non-privileged port
+
+# create an AF_INET, STREAM socket (TCP)
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+print 'socket created'
+
+try:
+    s.bind((HOST, PORT))
+except socket.error, msg:
+    print 'Bind failed. Error Code : ' + str(msg[0]) + 'Message ' + msg[1]
+    sys.exit()
+print 'Socket bind complete'
+
+s.listen(10)  # 10 is a backlog;it controls the number of incoming connections
+print 'Socket now listening'
+
+#wait to accept a connection - blocking call
+conn, addr = s.accept()
+
+#display client information
+print 'Connected with ' + addr[0] + ':' + str(addr[1])
+
+#now keep talking with the client
+data = conn.recv(1024)
+conn.sendall(data)
+
+conn.close()
+s.close
+
+

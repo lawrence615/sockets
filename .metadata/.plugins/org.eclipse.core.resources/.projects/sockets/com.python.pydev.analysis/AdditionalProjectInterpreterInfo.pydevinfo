@@ -1,0 +1,23 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/lawrence/djangoworkspace/sockets/.metadata/.plugins/org.eclipse.core.resources/.projects/sockets/com.python.pydev.analysis/v2_indexcache
+client|1399866177000|/home/lawrence/djangoworkspace/sockets/sockets/client.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=client
+-- END DICTIONARY
+-- START TREE 1
+8
+add|0|
+con|0|
+hos|1|host!11@
+mes|1|message!11@
+por|1|port!11@
+rem|1|remote_ip!11@
+rep|1|reply!11@
+s|1|s!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

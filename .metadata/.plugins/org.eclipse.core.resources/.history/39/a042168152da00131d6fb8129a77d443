@@ -1,0 +1,10 @@
+import socket
+import sys
+
+HOST = '' # symbolic name meaning all available interfaces
+PORT = 8888 #Arbitrary non-privileged port
+
+# create an AF_INET, STREAM socket (TCP)
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+print 'socket created'
