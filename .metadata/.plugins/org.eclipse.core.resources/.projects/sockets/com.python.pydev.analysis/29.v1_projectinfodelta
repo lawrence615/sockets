@@ -1,1 +1,5 @@
-DELSTRserver
+INSTUPchat_server
+/home/lawrence/djangoworkspace/sockets/sockets/chat_server.py
+INFOS:&&2|1|2|0
+broadcast_data=1
+chat_server=2

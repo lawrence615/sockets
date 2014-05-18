@@ -1,2 +1,5 @@
 MODULES_MANAGER_V2
+chat_client|/home/lawrence/djangoworkspace/sockets/sockets/chat_client.py
+chat_server|/home/lawrence/djangoworkspace/sockets/sockets/chat_server.py
 client|/home/lawrence/djangoworkspace/sockets/sockets/client.py
+server|/home/lawrence/djangoworkspace/sockets/sockets/server.py

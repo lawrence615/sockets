@@ -1,1 +1,15 @@
-DELSTRserver
+INSTUPchat_server
+/home/lawrence/djangoworkspace/sockets/sockets/chat_server.py
+INFOS:&&2|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0&&3|9|2|0&&3|10|2|0&&3|11|2|0&&3|12|2|0
+PORT=5
+server_socket=6
+RECV_BUFFER=4
+broadcast_data=1
+sockfd=10
+error_sockets=9
+data=12
+write_sockets=8
+addr=11
+read_sockets=7
+CONNECTION_LIST=3
+chat_server=2

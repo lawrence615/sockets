@@ -1,0 +1,6 @@
+#telnet program example
+
+import socket, select, string, sys
+
+def prompt():
+    sys.stdout.write('<Me>')

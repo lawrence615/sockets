@@ -1,0 +1,27 @@
+# TCP Chat server
+
+import socket, select
+
+# broadcasts chat messages to all connected clients
+def broadcast_messages(sock, message):
+    # do not send the message to master socket and the client who has send us the message
+    for socket in CONNECTION_LIST:
+        if socket != server_socket and socket != sock:     
+            try :
+                socket.send(message)
+            except :
+                # broken socket connection may be, chat client presed ctrl + c
+                socket.close()
+                CONNECTION_LIST.remove(socket)
+if __name__ == "__main__":
+    #list to keep track of socket descriptors
+    CONNECTION_LIST = []
+    RECV_BUFFER = 4096
+    PORT = 5000
+    
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    server_socket.bind(("0.0.0.0", PORT))
+    server_socket.listen(10)
+    
+    

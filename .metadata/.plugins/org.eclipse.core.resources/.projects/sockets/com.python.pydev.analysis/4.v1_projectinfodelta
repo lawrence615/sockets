@@ -1,10 +1,1 @@
-INSTUPserver
-/home/lawrence/djangoworkspace/sockets/sockets/server.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0
-HOST=1
-PORT=3
-conn=5
-s=4
-data=7
-addr=6
-server=2
+DELSTRchat_client

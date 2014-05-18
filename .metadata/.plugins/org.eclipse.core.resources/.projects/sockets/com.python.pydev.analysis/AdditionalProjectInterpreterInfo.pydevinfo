@@ -1,22 +1,38 @@
 -- VERSION_4
 -- START DISKCACHE
 /home/lawrence/djangoworkspace/sockets/.metadata/.plugins/org.eclipse.core.resources/.projects/sockets/com.python.pydev.analysis/v2_indexcache
+chat_client|1400420594000|/home/lawrence/djangoworkspace/sockets/sockets/chat_client.py
 client|1399866177000|/home/lawrence/djangoworkspace/sockets/sockets/client.py
+server|1399996544000|/home/lawrence/djangoworkspace/sockets/sockets/server.py
+chat_server|1400420099000|/home/lawrence/djangoworkspace/sockets/sockets/chat_server.py
 -- END DISKCACHE
 -- START DICTIONARY
-1
-1=client
+4
+3=chat_client
+4=client
+2=server
+1=chat_server
 -- END DICTIONARY
 -- START TREE 1
-8
+18
 add|0|
+bro|1|broadcast_messages!10@
+cli|1|clientthread!18@
 con|0|
-hos|1|host!11@
-mes|1|message!11@
-por|1|port!11@
-rem|1|remote_ip!11@
-rep|1|reply!11@
-s|1|s!11@
+dat|1|data!27@
+err|1|error_sockets!27@
+hos|3|host!35@host!27@HOST!19@
+mes|1|message!35@
+por|3|port!35@PORT!19@port!27@
+pro|1|prompt!26@
+rea|1|read_sockets!27@
+rec|0|
+rem|1|remote_ip!35@
+rep|1|reply!35@
+s|3|s!27@s!19@s!35@
+ser|0|
+soc|1|socket_list!27@
+wri|1|write_sockets!27@
 -- END TREE
 -- START TREE 2
 0
